@@ -117,6 +117,15 @@ img {
   padding-bottom: 200px;
   background-color: var(--footer-beckgeround);
   text-align: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hiro-bg.png);
+  background-repeat: no-repeat;
+  box-sizing: cover;
+  background-position: center;
+  max-width: 1600px;
 }
 .hero-title {
   margin-bottom: 30px;
